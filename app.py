@@ -80,7 +80,7 @@ def download(upload_id):
     except :
         return f'Error: file  ID {upload_id} not found!'
 
-#Hrátky s uživateli - vytvoření testovacích instancí objektu Uzivatel    
+#Hrátky s uživateli - vytvoření testovacích instancí objektu Uzivatel    a
 martin = User("Martin", None)
 pepa = User("Pepa", "pepa@mail.cz")
 ela = User("Ela", "ela@mail.cz")
